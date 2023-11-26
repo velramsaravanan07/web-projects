@@ -4,10 +4,11 @@
     margin-left: 20rem;
     margin-top: 2rem;
     z-index: -2;
+   
 }
 .card{
     margin: 20px;
-    border: 2px solid #ededed;
+    border: 2px solid #0093E9;;
     padding:20px;
     cursor: pointer;
 }
@@ -39,4 +40,12 @@
 }
 .bag-icon{
     color: #535353;
+}
+button{
+    margin: 10px 40px;   
+}
+.heart span.nav-icons svg {
+    width: 32px;
+    height: 25px;
+    
 }
