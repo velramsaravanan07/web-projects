@@ -1,0 +1,84 @@
+/* 
+.like-container {
+    margin: 50px 300px; 
+    padding: 20px;
+    border: 1px solid #770808;
+    border-radius: 8px;
+  }
+  
+  .like-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .like-items li {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .like-items li img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  .like-items li div {
+    flex-grow: 1;
+  }
+  
+  .like-items li button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .like-items li button:hover {
+    background-color: #cc0000;
+  }  */
+/* Like.css */
+.like-container {
+    margin: 50px 300px; /* Adjusted margin for centering horizontally */
+    padding: 20px;
+    border: 1px solid #770808;
+    border-radius: 8px;
+  }
+  
+  .like-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .like-items li {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .like-items li img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  .like-items li div {
+    flex-grow: 1;
+  }
+  
+  .like-items li button {
+    background-color: #f6f6f6;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .like-items li button.hovered {
+    background-color: #cc0000;
+  }
+  
