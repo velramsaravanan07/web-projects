@@ -1,27 +1,38 @@
-nav{
+ nav{
+
     display: flex;
     border-bottom: 2px solid#f3f3f3;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
     z-index: 999;
-    margin-left: 2rem;
+    margin-left: 0rem;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
 
 input{
-    padding: 12px 20px;
-    border: none;
-    background: #f7f6f6;
-    outline: none;
-    margin-right: 20px;
-    border-radius: 5px;
-    position: relative;
-    width: 14rem;
+    
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    padding: 10px 90px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    margin-right: .5rem;
+    border-radius: 8px;
+    border-color: #0093E9;
 }
 
-.nav-icons{
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-left: 2rem;
+.nav-icons {
+     width: 2rem;
+    height: 2rem;
+    margin-left: 20px;
     color: black;
-}
+  position: relative;
+  flex-direction: row;
+  }
+  
+  .nav-icons:hover {
+    color: white;
+  }
+  
+ 
