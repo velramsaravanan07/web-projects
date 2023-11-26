@@ -1,12 +1,13 @@
- import {FiHeart} from 'react-icons/fi';
- import{AiOutlineShoppingCart,AiOutlineUserAdd} from 'react-icons/ai';
- import './Nav.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { FiHeart } from 'react-icons/fi';
+import { AiOutlineShoppingCart, AiOutlineUserAdd } from 'react-icons/ai';
+import './Nav.css';
 
-
- function Nav({ handleInputChange, query }) {
+function Nav({ handleInputChange, query, handleLikeClick }) {
   return (
-  
     <nav>
+      
       <div className="nav-container">
         <input
           className="search-input"
@@ -17,18 +18,19 @@
         />
       </div>
       <div className="profile-container">
-        <a href="#">
+        <Link to="/like" className="nav-icons" onClick={handleLikeClick}>
           <FiHeart className="nav-icons" />
-        </a>
-        <a href="">
+        </Link>
+        <Link to="/cart" className="nav-icons">
           <AiOutlineShoppingCart className="nav-icons" />
-        </a>
-        <a href="">
+        </Link>
+        <a href="/login" target="_blank" rel="noopener noreferrer">
           <AiOutlineUserAdd className="nav-icons" />
         </a>
       </div>
+      
     </nav>
   );
- }
+}
 
 export default Nav;
